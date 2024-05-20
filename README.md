@@ -40,10 +40,19 @@ $$\begin{bmatrix} \text{door offset} \\ \text{Billy} \\ \text{Poang} \\ ... \\ \
 
 ##### The objective function needs to be optimized is (15 variables):
 
-$$\begin{align}
+```math
+\begin{align}
 \text{argmin}
 \sum \limits _{order=1} ^{m} \big(\sum \limits _{i=1} ^{n - 1} \big\lvert{X_{i+1} - X_{i}}\big\rvert + \big\lvert{X_{n} - X_{0}}\big\rvert \big)
-\end{align}$$
+\end{align}
+```
+
+```math
+\begin{align}
+\text{argmin}
+\sum \limits _{order=1} ^{m} \big(\sum \limits _{i=1} ^{n - 1} \big\lvert{X_{i+1} - X_{i}}\big\rvert + \big\lvert{X_{n} - X_{0}}\big\rvert \big)
+\end{align}
+```
 
 where:
 
