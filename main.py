@@ -4,7 +4,7 @@ from functions import load_data, write_solution, total_distance
 # Load the problem data
 items, item_widths, orders = load_data("data.json")
 
-### LINH VIET NGUYEN SOLUTION BELOW #######################################
+### SOLUTION #######################################
 
 best_item_sequence = ['Malm', 'Dvala', 'Ribba', 'Lack', 'Ektorp',
                       'Billy', 'Fargrik', 'Klippan', 'Stockholm', 'Poang',
@@ -64,7 +64,7 @@ best_orders = [
                  ['Malm', 'Stockholm', 'Poang', 'Frakta', 'Kallax']
               ]
 
-### LINH VIET NGUYEN SOLUTION ABOVE #######################################
+#######################################
 
 # Write the solution
 write_solution(best_item_sequence, best_door_offset, best_orders)
