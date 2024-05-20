@@ -13,6 +13,8 @@ we also have a list of representative orders.
 Figure out in what sequence to put the items in this aisle, and where the items should be placed relative to the door.
 (identifying relative x-coordinate of each item w.r.t the door)
 
+![](https://raw.githubusercontent.com/nvlinhvn/warehouse-optimize/main/img.png)
+
 The objective is to minimize the total distance that staff needs to move to pick up the items.
 
 Assumption:
