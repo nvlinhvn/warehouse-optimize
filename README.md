@@ -40,12 +40,13 @@ $$\begin{bmatrix} \text{doorOffset} \\ \text{Billy} \\ \text{Poang} \\ ... \\ \t
 
 ##### The objective function needs to be optimized is (15 variables):
 
-$
-
+$$
+\begin{align}
 \text{argmin}
-\sum \limits _{order=1} ^{m} \big(\sum \limits _{i=1} ^{n - 1} \big\lvert{X*{i+1} - X*{i}}\big\rvert + \big\lvert{X*{n} - X*{0}}\big\rvert \big)
+\sum \limits _{order=1} ^{m} \big(\sum \limits _{i=1} ^{n - 1} \big\lvert{X_{i+1} - X_{i}}\big\rvert + \big\lvert{X_{n} - X_{0}}\big\rvert \big)
+\end{align}
+$$
 
-$  
 where:
 
 - $X_{i}$: X-coordinate of item $i$. <br>
@@ -55,12 +56,14 @@ where:
 
 ##### Constraints. Since all items are placed as closely as possible, the constraints can be described:
 
-$\begin{align}
+$$
+\begin{align}
 \frac{1}{2}(w_{i} + w_{j}) \leq \big\lvert{X_i - X_j}\big\rvert \leq W - \frac{1}{2}(w_{i} + w_{j}) \newline
 \frac{1}{2}w_{i} \leq X_{i} \leq W - \frac{1}{2}w_{i} \newline
 \frac{1}{2}min(w_{i}) \leq X_{0} \leq W - \frac{1}{2}min(w_{i})
 \end{align}
-$
+$$
+
 where:
 
 - $w_{i}, w_{j}$: width of item $i$ $\neq$ $j$. <br>
