@@ -36,7 +36,7 @@ In the file `data.json` contains:
 
 ##### Let the non-negative x-coordinate of door offset, and 14 items as follow:
 
-$$\begin{bmatrix} \text{door_offset} \\ \text{Billy} \\ \text{Poang} \\ ... \\ \text{Dvala} \end{bmatrix} = \begin{bmatrix} X_{0} \\ X_{1} \\ ... \\ X_{14} \end{bmatrix} $$
+$$\begin{bmatrix} \text{doorOffset} \\ \text{Billy} \\ \text{Poang} \\ ... \\ \text{Dvala} \end{bmatrix} = \begin{bmatrix} X_{0} \\ X_{1} \\ ... \\ X_{14} \end{bmatrix} $$
 
 ##### The objective function needs to be optimized is (15 variables):
 
