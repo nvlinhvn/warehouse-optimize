@@ -90,7 +90,7 @@ where:
 - 'Raskog': 24.75 <br>
   --> Total optimized distance = 1754.1
 
-##### Improvement. The above result is assumed the sequence per order is fixed. But we can actually permute the sequence to optimize the walking distance for each order (>= 2 item in sequence). This can be done at following simple pseudo algorithm
+##### Improvement. The above result is assumed the sequence per order is fixed. But we can actually permute the sequence to optimize the walking distance for each order (>= 2 item in sequence). This can be done at following simple pseudo algorithm:
 
 FUNCTION NextItem <br>
 
