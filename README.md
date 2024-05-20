@@ -36,7 +36,8 @@ In the file `data.json` contains:
 
 ##### Let the non-negative x-coordinate of door offset, and 14 items as follow:
 
-$$\begin{bmatrix} \text{door offset} \\ \text{Billy} \\ \text{Poang} \\ ... \\ \text{Dvala} \end{bmatrix} = \begin{bmatrix} X_{0} \\ X_{1} \\ ... \\ X_{14} \end{bmatrix} $$
+````math
+\begin{bmatrix} \text{door offset} \\ \text{Billy} \\ \text{Poang} \\ ... \\ \text{Dvala} \end{bmatrix} = \begin{bmatrix} X_{0} \\ X_{1} \\ ... \\ X_{14} \end{bmatrix}```
 
 ##### The objective function needs to be optimized is (15 variables):
 
@@ -45,14 +46,7 @@ $$\begin{bmatrix} \text{door offset} \\ \text{Billy} \\ \text{Poang} \\ ... \\ \
 \text{argmin}
 \sum \limits _{order=1} ^{m} \big(\sum \limits _{i=1} ^{n - 1} \big\lvert{X_{i+1} - X_{i}}\big\rvert + \big\lvert{X_{n} - X_{0}}\big\rvert \big)
 \end{align}
-```
-
-```math
-\begin{align}
-\text{argmin}
-\sum \limits _{order=1} ^{m} \big(\sum \limits _{i=1} ^{n - 1} \big\lvert{X_{i+1} - X_{i}}\big\rvert + \big\lvert{X_{n} - X_{0}}\big\rvert \big)
-\end{align}
-```
+````
 
 where:
 
@@ -95,7 +89,7 @@ where:
 - 'Raskog': 24.75 <br>
   --> Total optimized distance = 1754.1
 
-##### Improvement. The above result is assumed the sequence per order is fixed. But we can actually permute the sequence to optimize the walking distance for each order (>= 2 item in sequence). This can be done at following simple algorithm
+##### Improvement. The above result is assumed the sequence per order is fixed. But we can actually permute the sequence to optimize the walking distance for each order (>= 2 item in sequence). This can be done at following simple pseudo algorithm
 
 FUNCTION NextItem <br>
 
