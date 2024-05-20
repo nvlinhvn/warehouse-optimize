@@ -110,4 +110,27 @@ FOR each order <br>
 
 ##### order sequence is changed at {1, 2, 5, 6, 9, 10, 12, 21, 22, 26, 27, 29, 32, 34, 37, 38, 45, 46, 48, 50}
 
-##### Total (new) optimized distance = 1440.35
+##### Reorder the sequence per each order:
+
+- 1th order: From ['Stockholm', 'Dvala', 'Poang', 'Malm'] to ['Dvala', 'Malm', 'Stockholm', 'Poang']
+- 2th order: From ['Poang', 'Docksta', 'Dvala', 'Ribba', 'Billy', 'Fargrik'] to ['Dvala', 'Ribba', 'Billy', 'Fargrik', 'Poang', 'Docksta']
+- 5th order: From ['Fargrik', 'Ektorp', 'Frakta', 'Docksta'] to ['Ektorp', 'Fargrik', 'Frakta', 'Docksta']
+- 6th order: From ['Frakta', 'Fargrik', 'Poang', 'Raskog', 'Malm'] to ['Fargrik', 'Poang', 'Frakta', 'Raskog', 'Malm']
+- 9th order: From ['Docksta', 'Frakta', 'Klippan', 'Poang', 'Kallax', 'Dvala'] to ['Dvala', 'Klippan', 'Poang', 'Frakta', 'Docksta', 'Kallax']
+- 10th order: From ['Dvala', 'Billy', 'Kallax', 'Lack', 'Ektorp'] to ['Dvala', 'Lack', 'Ektorp', 'Billy', 'Kallax']
+- 12th order: From ['Stockholm', 'Poang', 'Dvala', 'Kallax', 'Lack', 'Ribba'] to ['Dvala', 'Ribba', 'Lack', 'Stockholm', 'Poang', 'Kallax']
+- 21th order: From ['Poang', 'Ektorp', 'Dvala', 'Malm', 'Klippan', 'Stockholm'] to ['Ektorp', 'Dvala', 'Malm', 'Klippan', 'Stockholm', 'Poang']
+- 22th order: From ['Stockholm', 'Ektorp', 'Dvala', 'Billy', 'Fargrik'] to ['Dvala', 'Ektorp', 'Billy', 'Fargrik', 'Stockholm']
+- 26th order: From ['Klippan', 'Billy', 'Ribba', 'Kallax', 'Frakta', 'Ektorp'] to ['Ribba', 'Ektorp', 'Billy', 'Klippan', 'Frakta', 'Kallax']
+- 27th order: From ['Stockholm', 'Fargrik', 'Raskog', 'Billy', 'Dvala', 'Poang'] to ['Stockholm', 'Poang', 'Raskog', 'Fargrik', 'Billy', 'Dvala']
+- 29th order: From ['Fargrik', 'Ektorp', 'Billy', 'Lack', 'Klippan'] to ['Ektorp', 'Lack', 'Billy', 'Fargrik', 'Klippan']
+- 32th order: From ['Stockholm', 'Klippan', 'Billy', 'Kallax', 'Raskog'] to ['Klippan', 'Stockholm', 'Kallax', 'Raskog', 'Billy']
+- 34th order: From ['Lack', 'Ektorp', 'Billy', 'Malm'] to ['Malm', 'Lack', 'Ektorp', 'Billy']
+- 37th order: From ['Dvala', 'Docksta', 'Lack', 'Stockholm', 'Ektorp']: 69.7500005455538 to ['Dvala', 'Lack', 'Ektorp', 'Stockholm', 'Docksta']
+- 38th order: From ['Malm', 'Fargrik', 'Docksta', 'Billy', 'Kallax'] to ['Malm', 'Billy', 'Fargrik', 'Docksta', 'Kallax']
+- 45th order: From ['Ektorp', 'Poang', 'Ribba', 'Docksta', 'Klippan'] to ['Ektorp', 'Ribba', 'Klippan', 'Poang', 'Docksta']
+- 46th order: From ['Fargrik', 'Billy', 'Raskog', 'Frakta', 'Docksta', 'Kallax'] to ['Billy', 'Fargrik', 'Frakta', 'Docksta', 'Kallax', 'Raskog']
+- 48th order: From ['Lack', 'Poang', 'Ektorp', 'Klippan', 'Billy'] to ['Lack', 'Ektorp', 'Billy', 'Klippan', 'Poang']
+- 50th order: From ['Poang', 'Frakta', 'Kallax', 'Malm', 'Stockholm'] to ['Malm', 'Stockholm', 'Poang', 'Frakta', 'Kallax']
+
+##### With reordering logic, total (new) optimized distance = 1440.35 (~20% shorter)
