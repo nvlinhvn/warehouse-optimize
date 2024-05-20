@@ -111,7 +111,3 @@ FOR each order <br>
 ##### order sequence is changed at {1, 2, 5, 6, 9, 10, 12, 21, 22, 26, 27, 29, 32, 34, 37, 38, 45, 46, 48, 50}
 
 ##### Total (new) optimized distance = 1440.35
-
-```
-
-```
