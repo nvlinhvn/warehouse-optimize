@@ -36,8 +36,9 @@ In the file `data.json` contains:
 
 ##### Let the non-negative x-coordinate of door offset, and 14 items as follow:
 
-````math
-\begin{bmatrix} \text{door offset} \\ \text{Billy} \\ \text{Poang} \\ ... \\ \text{Dvala} \end{bmatrix} = \begin{bmatrix} X_{0} \\ X_{1} \\ ... \\ X_{14} \end{bmatrix}```
+```math
+\begin{bmatrix} \text{door offset} \\ \text{Billy} \\ \text{Poang} \\ ... \\ \text{Dvala} \end{bmatrix} = \begin{bmatrix} X_{0} \\ X_{1} \\ ... \\ X_{14} \end{bmatrix}
+```
 
 ##### The objective function needs to be optimized is (15 variables):
 
@@ -110,4 +111,7 @@ FOR each order <br>
 ##### order sequence is changed at {1, 2, 5, 6, 9, 10, 12, 21, 22, 26, 27, 29, 32, 34, 37, 38, 45, 46, 48, 50}
 
 ##### Total (new) optimized distance = 1440.35
-````
+
+```
+
+```
