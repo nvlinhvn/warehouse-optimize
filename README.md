@@ -46,7 +46,7 @@ In the file `data.json` contains:
 \text{argmin}
 \sum \limits _{order=1} ^{m} \big(\sum \limits _{i=1} ^{n - 1} \big\lvert{X_{i+1} - X_{i}}\big\rvert + \big\lvert{X_{n} - X_{0}}\big\rvert \big)
 \end{align}
-````
+```
 
 where:
 
@@ -110,3 +110,4 @@ FOR each order <br>
 ##### order sequence is changed at {1, 2, 5, 6, 9, 10, 12, 21, 22, 26, 27, 29, 32, 34, 37, 38, 45, 46, 48, 50}
 
 ##### Total (new) optimized distance = 1440.35
+````
