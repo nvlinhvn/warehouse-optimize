@@ -1,0 +1,6 @@
+# This file may be used to create an environment using:
+# $ conda env create
+name: warehouse_placement
+dependencies:
+  - python=3.8.8
+  - scipy=1.6.2
